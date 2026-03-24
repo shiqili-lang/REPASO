@@ -1,0 +1,17 @@
+Secuencia TDD sugerida para clase:
+
+1. Añadir un test nuevo en test/aplicacion/CalculadoraTest.java
+2. Ejecutar build.bat test
+3. Ver el fallo (RED)
+4. Cambiar solo el codigo minimo en src/
+5. Ejecutar build.bat test
+6. Ver el exito (GREEN)
+7. Refactorizar si procede
+8. Repetir
+
+Comandos mas utiles:
+- build.bat test
+- build.bat testclass aplicacion.CalculadoraTest
+- build.bat compile
+- build.bat run
+- build.bat clean

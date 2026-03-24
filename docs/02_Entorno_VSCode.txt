@@ -1,0 +1,6 @@
+Extensiones recomendadas en Windows:
+- Extension Pack for Java
+- Test Runner for Java
+
+Este arquetipo incluye una libreria ligera compatible con un subconjunto de la API de JUnit para trabajar TDD sin Maven.
+Los imports de los tests ya usan org.junit.jupiter.api.*, de modo que el salto a JUnit oficial es directo cuando se anada el jar oficial al proyecto.

@@ -1,0 +1,66 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "TDD: Ejecutar todos los tests",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "${workspaceFolder}\\build.bat",
+        "test"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "TDD: Ejecutar test de Calculadora",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "${workspaceFolder}\\build.bat",
+        "testclass",
+        "aplicacion.CalculadoraTest"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Java: Compilar",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "${workspaceFolder}\\build.bat",
+        "compile"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Java: Ejecutar aplicacion",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "${workspaceFolder}\\build.bat",
+        "run"
+      ],
+      "group": "none",
+      "problemMatcher": []
+    },
+    {
+      "label": "Java: Limpiar",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "${workspaceFolder}\\build.bat",
+        "clean"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

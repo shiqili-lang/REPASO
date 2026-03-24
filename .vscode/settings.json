@@ -1,0 +1,17 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "test"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "libs/**/*.jar"
+    ],
+    "java.server.launchMode": "Standard",
+    "files.exclude": {
+        "**/bin": true
+    },
+    "search.exclude": {
+        "**/bin": true
+    }
+}
